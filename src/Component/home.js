@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import cities from "../Asset/Cities.json"
 
 function Home() {
-    const [Weather, setWeather] = useState({});
+  const [Weather, setWeather] = useState({});
   const [Loading, setLoading] = useState(true);
   const [City, setCity] = useState("");
   const navigate = useNavigate(); 
