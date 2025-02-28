@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 2px solid #0072ff;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.search-box button {
+    background: #0072ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-box button:hover {
+    background: #005bb5;
+}
+
+/* Weather Card */
+.weather-card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+    margin: 10px 0;
+}
+
+.weather-card h3 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.weather-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.drop-down{
+    position: absolute;
+    z-index: 99;
+    opacity: 0.9;
+    width: 20.9%;
+    font-size: 24px;
+    
+    background-color: antiquewhite;
+    text-align: left;
+}
+.drop-down p{
+    padding: 8px;
+}
+.drop-down p:hover{
+    background-color: rgb(246, 220, 187);
+}
+
